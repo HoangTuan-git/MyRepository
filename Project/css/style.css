@@ -1,0 +1,111 @@
+.header-container {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.header-logo {
+    max-height: 100px;
+}
+
+.search-bar {
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.search-bar button {
+    background: transparent;
+    border: none;
+}
+
+.icon-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon-section a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.icon-section a .icon {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+}
+
+.icon-section img {
+    width: 30px;
+    height: 30px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.container ul li {
+    margin-left: 40px;
+
+}
+
+.container a h3 {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+/* Hiệu ứng hover cho các mục icon trong phần icon-section */
+.icon-section a {
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.icon-section a:hover {
+    color: green;
+    /* Màu chuyển thành xanh khi hover */
+}
+
+.icon-section a .icon img {
+    transition: transform 0.3s ease;
+}
+
+.icon-section a:hover .icon img {
+    transform: scale(1.1);
+    /* Tăng kích thước hình ảnh khi hover */
+}
+.nav-link:hover{
+    text-transform: uppercase;
+}
+/* Hiệu ứng hover cho các dropdown menu */
+.nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #d6d3d3;
+    /* Thay đổi màu nền khi hover */
+    color: green;
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 7px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black; 
+    cursor: pointer;
+}
+.footer ul li a:hover{
+    color: green;
+}
